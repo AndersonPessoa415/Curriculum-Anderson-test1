@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Curriculo" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo Pessoal</title>
+    <style>
+        body {
+            background-color: cadetblue;
+            background-image: url(céu.png);
+        }
+
+        h1 {
+            text-shadow: white 4px 7px 10px;
+            color: azure;
+            font-family: sans-serif;
+            font-size: 12mm;
+            text-align: center;
+        }
+        p {
+            text-shadow: white 3px 3px 30px;
+            color: azure;
+            font-family: sans-serif;
+            font-size: 10mm;
+            text-align: center;
+        }
+
+        div#gato img {
+            width: 1760px;
+            height: 900px;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <h1> ~ Seja Bem Vindo! ~ </h1>
+    <hr>
+
+    <div id="gato"><img src="gato.png"> </div>
+
+    <script>
+        var visitante = (window.prompt("Qual seu nome visitante?"))
+        var usuario = visitante
+        window.alert(usuario != false ? `E um prazer te conhecer ${usuario}` : `Não Deseja informar seu nome? Tudo bem, Irei te chamar de Frederico`)
+        var p = document.createElement('p')
+        var text = document.createTextNode(` É um prazer ser visitado por você ${visitante} `);
+        p.appendChild(text)
+        document.body.appendChild(p);
+    </script>
+
+    <body link="black" vlink="#green" alink="white"></body>
+    <hr>
+    <p>Esse é o meu <A href="http://www.linkedin.com/in/anderson-fábio-pessoa-09a2611a2">LinkedIn</A>
+    <p>
+        </hr>
+        <hr>
+        <usemap="#menu">
+            <p>Deseja ver meu <A
+                    href="https://drive.google.com/file/d/1nRpJ-7VCJpAzI8IVSj2fU5mPKbFNBXeW/view?usp=sharing">
+                    Curriculo</A>?
+            <p>
+                </hr>
+                </usemap>
+
+
+</body>
+
+</html>
